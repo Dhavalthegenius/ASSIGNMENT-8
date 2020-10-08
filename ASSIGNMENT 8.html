@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Biodata Form</title>
+</head>
+<body bgcolor="#A4B0BD">
+	<h1>My Bio Data</h1>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<lable for="First Name">First Name : </lable>
+			<input name="First Name" id="First Name" placeholder="First Name" required>
+			<lable for="Last Name">Last Name : </lable>
+			<input name="Last Name" id="Last Name" placeholder="Last Name" required>
+			<br><br>
+			<lable for="Gender">Gender : </lable>
+			<lable for="Gender">Male : </lable>
+			<input type="radio" name="Gender">
+			<lable for="Gender">Female : </lable> 
+			<input type="radio" name="Gender">
+			<lable for="Gender">Other : </lable>
+			<input type="radio" name="Gender"> 
+			<br><br>
+			<lable for="DOB">Date Of Birth : </lable>
+			<input name="DOB" id="DOB" type="date" required>
+			<br><br>
+			<lable for="email">E-Mail : </lable>
+			<input name="email" id="email" placeholder="abc@email.com" type="email" required>
+			<br><br>
+			<lable for="phone">Phone : </lable>
+			<input name="phone" id="phone" placeholder="+91" type="tel" required>
+			<br><br>
+			<lable for="height">Height : </lable>
+			<input name="height" id="height" type="number" required>
+		</fieldset>
+		<fieldset>
+			<legend>Education</legend>
+			<lable for="School Name">School Name : </lable>
+			<input name="School Name" id="School Name" placeholder="Your School Name" required>
+			<br><br>
+			<lable for="class">Class : </lable>
+			<input name="Class" id="Class" placeholder="Your Class" required>
+			<br><br>
+			<lable for="stream">Stream : </lable>
+			<select name="stream" id="stream" required>
+				<option>Stream</option>
+				<option>Medical</option>
+				<option>Non Medical</option>
+				<option>Commerce</option>
+				<option>Humanities</option>
+			</select>
+			<br><br>
+			<lable for="marksheet">Marksheet : </lable>
+			<input name="marksheet" id="marksheet" type="file" required>
+		</fieldset>
+		<br>
+		<input type="submit">
+	</form>
+</body>
+</html>
